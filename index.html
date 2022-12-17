@@ -1,141 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="Assets/Logos/Logo.png">
-    <link rel="stylesheet" href="assets/CSS/estilos.css">
-    <title>Keik desing </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="Assets/Logos/Logo.png">
+  <link rel="stylesheet" href="assets/CSS/estilos.css">
+  <title>Keik desing </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="contenedor">
-        <header class="d-flex">
+  <div class="contenedor">
+    <header class="d-flex">
+      <!-- Iconos desplegables -->
+      <div class="iconos">
+        <nav class="navbar bg-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Keik
+              <img src="assets/Logos/Logo.png" alt="Logo" class="logo">
+            </a>
             <div>
-                <ul class="sexo">
-                    <div>
-                        <li>Mujer</li>
-                    </div>
-                    <div>
-                        <li>Hombre</li>
-                    </div>
-                    <div>
-                        <li>Niños</li>
-                    </div>
+              <nav class="botones-desplegables">
+                <div class="dropdown">
+                  <button class="boton">Chica
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="">Camisetas</a>
+                    <a href="">Pantalones</a>
+                    <a href="">Accesorios</a>
+                    <a href="">Segunda mano</a>
+                  </div>
+                </div>
+
+                <div class="dropdown">
+                  <button class="boton">Chico
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="">Camisetas</a>
+                    <a href="">Pantalones</a>
+                    <a href="">Accesorios</a>
+                    <a href="">Segunda mano</a>
+                  </div>
+                </div>
+
+                <div class="dropdown">
+                  <button class="boton">Niños</button>
+                  <div class="dropdown-content">
+                    <a href="">Camisetas</a>
+                    <a href="">Pantalones</a>
+                    <a href="">Accesorios</a>
+                    <a href="">Segunda mano</a>
+                  </div>
+                </div>
+
+                <div class="dropdown">
+                  <a href="">
+                    <button class="boton">
+                      Sobre nosotros
+                    </button>
+                  </a>
+                </div>
+                <div class="dropdown">
+                  <a href="">
+                    <button class="boton">
+                      Contactanos
+                    </button>
+                  </a>
+                </div>
+
+
+
+              </nav>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Cuenta
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Entrar</a></li>
+                      <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                  </li>
                 </ul>
+                <form class="d-flex mt-3" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
             </div>
-            <!-- Iconos desplegables -->
-            <div class="iconos">
-                <nav class="navbar bg-light fixed-top">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Keik
-                        <img src="assets/Logos/Logo.png" alt="Logo" class="logo"> 
-                      </a>
-                      <div>
-                        <nav class="botones-desplegables">
-                            <div class="dropdown">
-                                <button class="boton">Chica
-                                </button>
-                                <div class="dropdown-content">
-                                <a href="">Camisetas</a>
-                                <a href="">Pantalones</a>
-                                <a href="">Accesorios</a>
-                                <a href="">Segunda mano</a>
-                                </div>
-                              </div>
-            
-                              <div class="dropdown">
-                                <button class="boton">Chico
-                                </button>
-                                <div class="dropdown-content">
-                                <a href="">Camisetas</a>
-                                <a href="">Pantalones</a>
-                                <a href="">Accesorios</a>
-                                <a href="">Segunda mano</a>
-                                </div>
-                              </div>
-            
-                              <div class="dropdown">
-                                <button class="boton">Niños</button>
-                                <div class="dropdown-content">
-                                <a href="">Camisetas</a>
-                                <a href="">Pantalones</a>
-                                <a href="">Accesorios</a>
-                                <a href="">Segunda mano</a>
-                                </div>
-                              </div>
+          </div>
+        </nav>
+      </div>
 
-                              <div class="dropdown">
-                                <a href="">
-                                <button class="boton">
-                                  Sobre nosotros
-                                </button>
-                                </a>
-                              </div>
-                              <div class="dropdown">
-                                <a href="">
-                                <button class="boton">
-                                  Contactanos
-                                </button>
-                                </a>
-                              </div>
-                              
-                              
-            
-                        </nav>
-                    </div>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="#index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                             Cuenta
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Entrar</a></li>
-                                <li><a class="dropdown-item" href="#">Registrarse</a></li>
-                                <li>
-                                  <hr class="dropdown-divider">
-                                </li>
-                            </li>
-                          </ul>
-                          <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                  </nav>
-            </div>
+    </header>
 
-        </header>
-
-        <!-- Barra de buscar -->
-        <div>
-
-        </div>
-        <main>
-
-        </main>
+    <!-- Barra de buscar -->
+    <div>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <main>
+
+    </main>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
