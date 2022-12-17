@@ -42,7 +42,7 @@
   }
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     width: 100%;
     overflow: auto;
     width: 170px;
@@ -100,7 +100,7 @@
   }
 
   main div button{
-    margin-right: 150px;
+    margin-right: 50px;
   }
 
   svg{
