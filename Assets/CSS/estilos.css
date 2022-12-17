@@ -4,10 +4,9 @@
 }
 
 .contenedor{
-    width: 2000px;
+    max-width: 2000px;
     margin: auto;
 }
-
 /*Encabezado*/
 
 
