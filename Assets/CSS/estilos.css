@@ -12,19 +12,12 @@
 
 
 
-.navbar-brand{
-    padding-top: 30px;
-    font-family: 'Secular One', sans-serif;
-    font-weight: bold;
-    font-size: 35px;
-    padding-left: 10px;
-    
-}
+
 
 .logo{
-    height: 75px;
-    width: 100px;
-  margin-left: 1px;
+    height: 100px;
+    width: 150px;
+
 
 }
 
@@ -41,7 +34,7 @@
 }
 
 .botones-desplegables{
-    padding-right: 250px;
+  margin-right: 150px;
 }
 .dropdown {
     display: inline-block;
@@ -55,6 +48,8 @@
     overflow: auto;
     width: 170px;
     box-shadow: 0px 10px 10px 0px rgba(159, 80, 2, 0.4);
+    background-color: white;
+    opacity: 0.7;
   }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -81,6 +76,39 @@
     font-weight: bold;
   }
 
+  /* Main */
 
+  .carousel-control-prev-icon{
+    color: black;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+
+  .carousel-control-next-icon{
+    color: black;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+
+
+
+  .acomodar{
+    margin:  auto;
+    margin-right: 800px;
+    height: 800px;
+    width: 1920px;
+    max-width: 100%;
+  }
+
+  main div button{
+    margin-right: 150px;
+  }
+
+  svg{
+    color: black;
+    height: 20px;
+    width: 20px;
+
+  }
 
 
