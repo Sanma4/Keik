@@ -3,6 +3,14 @@
     margin: 0;
 }
 
+.texto-negro{
+  color: black;
+}
+
+.texto-blanco{
+  color: white;
+}
+
 .contenedor{
     max-width: 2000px;
     margin: auto;
@@ -25,7 +33,6 @@
     margin-top: 25px;
     font-size: 1.5rem;
     list-style: none;
-    padding-left: 150px;
     font-family: 'Secular One', sans-serif;
     width: 180px;
     padding-left: 10px;
@@ -33,7 +40,7 @@
 }
 
 .botones-desplegables{
-  margin-right: 150px;
+  align-self: center;
 }
 .dropdown {
     display: inline-block;
@@ -100,7 +107,7 @@
   }
 
   main div button{
-    margin-right: 50px;
+    margin-right: 20px;
   }
 
   svg{
@@ -110,4 +117,80 @@
 
   }
 
+  /* Galería de proyectos */
+
+  .proyectos-recientes {
+    margin-top: 10px;
+    padding: 40px;
+    font-family: 'Secular One', sans-serif;
+    
+  }
+  
+  .seccion-titulo{
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+  }
+  .proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 45px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.2s ease;
+    height: 500px;
+    width: 500px;
+    margin-right: 150px;
+  }
+  
+  .proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 10px;
+  }
+  
+  .overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .proyecto {
+    position: relative;
+  }
+  
+  .proyecto:hover img {
+    opacity: 0.2;
+  }
+  
+  .proyecto:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay .iconos-contenedor {
+    display: flex;
+  }
+  
+  .overlay svg {
+    color: black;
+    font-size: 60px;
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+  }
+
+.poverlay{
+    margin-left: 60px;
+    color: black;
+}
 
