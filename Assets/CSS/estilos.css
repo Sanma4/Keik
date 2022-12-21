@@ -12,11 +12,11 @@
 }
 
 .contenedor{
-    max-width: 2000px;
-    margin: auto;
+    max-width: 1920px;
+    width: 100%;
+    
 }
 /*Encabezado*/
-
 
 
 
@@ -39,9 +39,6 @@
     
 }
 
-.botones-desplegables{
-  align-self: center;
-}
 .dropdown {
     display: inline-block;
     position: relative;
@@ -138,8 +135,8 @@
     border-radius: 10px;
     display: inline-block;
     transition: all 0.2s ease;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     margin-right: 150px;
   }
   
