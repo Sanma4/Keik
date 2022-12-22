@@ -127,6 +127,7 @@
     font-family: 'Secular One', sans-serif;
     font-size: 50px;
     text-align: center;
+    padding-bottom: 20px;
   }
   .proyectos-recientes img {
     height: 100%;
@@ -137,7 +138,8 @@
     transition: all 0.2s ease;
     height: 400px;
     width: 400px;
-    margin-right: 150px;
+    position: relative;
+    align-self: center;
   }
   
   .proyectos-contenedor {
