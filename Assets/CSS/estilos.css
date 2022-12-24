@@ -198,3 +198,14 @@
   color:#ff6d00
 }
 
+.contenido-movil{
+  display: none;
+}
+
+.contenido-ordenador{
+  display: block;
+}
+
+.navbar-toggler{
+  position: absolute, right, top;
+}
