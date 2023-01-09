@@ -211,7 +211,7 @@
   position: absolute, right, top;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 768px) {
   .contenido-movil{
     display: block;
   }
