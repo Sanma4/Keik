@@ -213,10 +213,10 @@
 
 @media screen and (min-width: 768px) {
   .contenido-movil{
-    display: none;
+    display: block;
   }
   
   .contenido-ordenador{
-    display: block;
+    display: none;
   }
 }
