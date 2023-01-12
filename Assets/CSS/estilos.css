@@ -220,3 +220,7 @@
     display: none;
   }
 }
+
+.carousel-control-next{
+  border-radius: 10px;
+}
