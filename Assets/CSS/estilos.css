@@ -44,6 +44,7 @@
     display: inline-block;
     position: relative;
     padding-top: 30px;
+    transition: all 0.2 ease;
   }
 .dropdown-content {
     display: none;
@@ -236,3 +237,8 @@
 .carousel-control-next{
   border-radius: 10px;
 }
+
+.seccion-titulo{
+  padding-top: 115px;
+}
+
