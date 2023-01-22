@@ -48,29 +48,31 @@
   }
 .dropdown-content {
     display: none;
-    position: relative;
+    position: absolute;
     width: 100%;
     overflow: auto;
     width: 170px;
     box-shadow: 0px 10px 10px 0px rgba(159, 80, 2, 0.4);
     background-color: white;
-    opacity: 0.7;
+    z-index: 3;
+
+    transition: all 0.2s ease;
   }
 .dropdown:hover .dropdown-content {
     display: block;
-    transition: all 0.2 ease;
+    transition: all 0.2s ease;
   }
 .dropdown-content a {
     display: block;
     color: #000000;
     padding: 10px;
     text-decoration: none;
-    transition: all 0.2 ease;
+    transition: all 0.2s ease;
   }
 .dropdown-content a:hover {
     color: #ffffff;
     background-color: #ff6d00;
-    transition: all 0.2 ease;
+    transition: all 0.2s ease;
   }
 
 .boton{
@@ -199,7 +201,7 @@
 }
 
 .boton-destacado:hover {
-  color:#ff6d00
+  color:#ffffff
 }
 
 .contenido-movil{
@@ -242,3 +244,25 @@
   padding-top: 115px;
 }
 
+/*Footer*/ 
+
+footer{
+  background-color: #e7e8e9;
+  display: grid;;
+  font-family: 'Secular One', sans-serif;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 200px 1fr 1fr;
+}
+
+.contacto{
+  display: block;
+  margin: 15px;
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+.redes{
+ grid-column-start: 3;
+ grid-column-end: 4;
+  margin-top: 100px;
+}
