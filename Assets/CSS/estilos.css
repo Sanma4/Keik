@@ -267,7 +267,27 @@ footer section {
   grid-row-end: 4;
   margin: auto;
   text-align: center;
+  
 }
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: #000000;
+  font-family: 'Secular One', sans-serif;
+}
+ footer div a:hover{
+  color: #ff6d00;
+  text-decoration: underline;
+ }
+
+ .oculto {
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+ .oculto:hover{
+  opacity: 1;
+  transition: all 0.2s ease;
+ }
 
 @media screen and (max-width: 768px){
   footer section {
@@ -293,5 +313,15 @@ footer section {
     margin: auto;
     text-align: center;
     margin-right: 15px;
+    text-decoration: none;
   }
+
+  a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #000000;
+    font-family: 'Secular One', sans-serif;
 }
+  
+
+}
+
