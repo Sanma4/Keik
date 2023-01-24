@@ -14,8 +14,6 @@
 .contenedor{
     max-width: 1920px;
     margin: auto;
-    
-    
 }
 /*Encabezado*/
 
@@ -246,23 +244,54 @@
 
 /*Footer*/ 
 
-footer{
-  background-color: #e7e8e9;
+footer section {
+  background-color: #f8f9fa;
   display: grid;;
   font-family: 'Secular One', sans-serif;
-  grid-template-columns: 200px 1fr 200px;
-  grid-template-rows: 200px 1fr 1fr;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 50px)
 }
 
 .contacto{
-  display: block;
+  
   margin: 15px;
   margin-left: 50px;
   padding-top: 50px;
 }
 
 .redes{
- grid-column-start: 3;
- grid-column-end: 4;
-  margin-top: 100px;
+  display: grid;
+  grid-column-start:8;
+  grid-column-end:9;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  footer section {
+    background-color: #f8f9fa;
+    display: grid;;
+    font-family: 'Secular One', sans-serif;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 50px)
+  }
+  
+  .contacto{
+    font-size: 0.3rem;
+    margin: 15px;
+    margin-left: 30px;
+    padding-top: 50px;
+  }
+  
+  .redes{
+    grid-column-start:8;
+    grid-column-end:9;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin: auto;
+    text-align: center;
+    margin-right: 15px;
+  }
 }
