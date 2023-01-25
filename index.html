@@ -235,21 +235,82 @@
 
 
         <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
-          <h2 class="seccion-titulo texto-negro">PRODUCTOS DESTACADOS</h2>
+          <h1 class="seccion-titulo texto-negro">PRODUCTOS DESTACADOS</h1>
+          <h2 class="seccion-subtitulo">Echa un vistazo a nuestros productos más vendidos</h2>
           <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header active-item" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  CHICO
-                </button>
-              </h2>
+            <div class="btn-grou justify-content-center" role="group" aria-label="Basic radio toggle button group">
+    
+              <div class="botones-mostrar" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="on" checked>
+                <label class="btn btn-outline-primary" id="headingOne" for="btnradio1">CHICO
+                </label>
+              </div>
+              
+              <div button class="botones-mostrar" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">CHICA</label>
+              </div>
+            </div>
+            
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="container text-center proyectos-contenedor">
+                  <div class="row">
+                    <!-- OFERTA 1 chica -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="proyecto">
+                        <img src="Assets/Prendas-mujer/FotosPrendas/Camiseta1m.png" alt="CAMISETA">
+                        <div class="overlay">
+
+                          <div class="iconos-contenedor">
+                            <a href="Assets/Prendas-mujer/camiseta-mujer.html" rel="noopener noreferrer">
+                              <button class="boton-destacado"> Detalles</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- OFERTA 2 chica -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="proyecto">
+                        <img src="Assets/Prendas-mujer/FotosPrendas/Pantalones1m.png" alt="Camiseta">
+                        <div class="overlay">
+                          <div class="iconos-contenedor">
+                            <a href="Assets/Prendas-mujer/pantalones-mujer.html" rel="noopener noreferrer">
+                              <button class="boton-destacado"> Detalles</button>
+                            </a>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- OFERTA 3 chica -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="proyecto">
+                        <img src="Assets/Prendas-mujer/FotosPrendas/Sudadera1m.png" alt="Camiseta">
+                        <div class="overlay">
+                          <div class="iconos-contenedor">
+                            <a href="Assets/Prendas-mujer" rel="noopener noreferrer">
+                              <button class="boton-destacado"> Detalles</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <div class="container text-center proyectos-contenedor">
                     <div class="row">
-                      <!-- OFERTA 1 -->
+                      <!-- OFERTA 1 chico -->
                       <div class="col-12 col-md-6 col-lg-4">
                         <div class="proyecto">
                           <img src="Assets/Logos/Camiseta2.png" alt="CAMISETA">
@@ -263,7 +324,7 @@
                           </div>
                         </div>
                       </div>
-                      <!-- OFERTA 2 -->
+                      <!-- OFERTA 2 chico -->
                       <div class="col-12 col-md-6 col-lg-4">
                         <div class="proyecto">
                           <img src="Assets/Prendas-hombre/FotosPrendas/pantalones1h.png" alt="Camiseta">
@@ -277,7 +338,7 @@
                           </div>
                         </div>
                       </div>
-                      <!-- OFERTA 3 -->
+                      <!-- OFERTA 3 chico -->
                       <div class="col-12 col-md-6 col-lg-4">
                         <div class="proyecto">
                           <img src="Assets/Prendas-hombre/FotosPrendas/sudadera2h.png" alt="Camiseta">
@@ -295,66 +356,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    CHICA
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div class="container text-center proyectos-contenedor">
-                      <div class="row">
-                        <!-- OFERTA 1 -->
-                        <div class="col-12 col-md-6 col-lg-4">
-                          <div class="proyecto">
-                            <img src="Assets/Prendas-mujer/FotosPrendas/Camiseta1m.png" alt="CAMISETA">
-                            <div class="overlay">
 
-                              <div class="iconos-contenedor">
-                                <a href="Assets/Prendas-mujer/camiseta-mujer.html" rel="noopener noreferrer">
-                                  <button class="boton-destacado"> Detalles</button>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- OFERTA 2 -->
-                        <div class="col-12 col-md-6 col-lg-4">
-                          <div class="proyecto">
-                            <img src="Assets/Prendas-mujer/FotosPrendas/Pantalones1m.png" alt="Camiseta">
-                            <div class="overlay">
-                              <div class="iconos-contenedor">
-                                <a href="Assets/Prendas-mujer/pantalones-mujer.html" rel="noopener noreferrer">
-                                  <button class="boton-destacado"> Detalles</button>
-                                </a>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- OFERTA 3 -->
-                        <div class="col-12 col-md-6 col-lg-4">
-                          <div class="proyecto">
-                            <img src="Assets/Prendas-mujer/FotosPrendas/Sudadera1m.png" alt="Camiseta">
-                            <div class="overlay">
-                              <div class="iconos-contenedor">
-                                <a href="Assets/Prendas-mujer" rel="noopener noreferrer">
-                                  <button class="boton-destacado"> Detalles</button>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
 
@@ -371,9 +373,9 @@
   <footer>
     <section class="contenedor img-fluid">
       <div class="contacto">
-        <h4>Contacto</h4>
-          <h5>Keikdesing@contacto.com</h2>
-            <h6>+34 457 31351</h3>
+        <h3>Contacto</h3>
+          <h4>Keikdesing@contacto.com</h4>
+            <h5>+34 457 31351</h5>
       </div>
       <div class="redes">
         <a href="">
@@ -401,15 +403,7 @@
       </section>
   </footer>
 
-  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-    <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
-  
-    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-    <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
-  
-    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-    <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+
   </div>
 </div>
 

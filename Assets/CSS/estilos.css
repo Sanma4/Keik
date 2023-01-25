@@ -129,7 +129,14 @@
     font-family: 'Secular One', sans-serif;
     font-size: 50px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+  }
+  
+  .seccion-subtitulo{
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
   }
   .proyectos-recientes img {
     height: 100%;
@@ -315,8 +322,27 @@ a:link, a:visited, a:active {
     text-decoration:none;
     color: #000000;
     font-family: 'Secular One', sans-serif;
+    
 }
   
 
 }
 
+.proyectos{
+  display: inline-block;
+}
+
+.btn-group {
+  color: #000000;
+}
+
+.botones-mostrar{
+  color: #000000;
+  text-align: center;
+}
+
+.botones-mostrar{
+  border: 10px;
+  border-color: #000000;
+
+}
