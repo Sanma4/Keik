@@ -285,8 +285,6 @@ a:link, a:visited, a:active {
 }
  footer div svg:hover{
   color: #ff6d00;
-  text-decoration: underline;
-  
  }
 
 
@@ -328,21 +326,26 @@ a:link, a:visited, a:active {
 
 }
 
-.proyectos{
-  display: inline-block;
-}
-
-.btn-group {
-  color: #000000;
-}
-
-.botones-mostrar{
-  color: #000000;
-  text-align: center;
+.btn-grou{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(5, 50px);
 }
 
 .botones-mostrar{
-  border: 10px;
-  border-color: #000000;
+  grid-column-start: 5;
+  grid-column-end: 6 ;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
 
+.botones-mostrarc{
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-gap: 10px;
+
+  
+  
 }
