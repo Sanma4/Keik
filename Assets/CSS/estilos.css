@@ -322,10 +322,15 @@ a:link, a:visited, a:active {
     font-family: 'Secular One', sans-serif;
     
 }
+  /* Botones chica-chico */
+  .botones-movil{
+  padding: 5px;
+}
   
 
 }
 
+/* Botones chica-chico */
 .btn-grou{
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -348,11 +353,12 @@ a:link, a:visited, a:active {
 }
 
 .botones-acordion{
+  border: 1px solid #000000;
   transform-style: preserve-3d;
   width: 100%;
   height: 100%;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: all;
   transition: all 1000ms ease;
   
@@ -360,10 +366,9 @@ a:link, a:visited, a:active {
 
 .botones-acordion:hover{
   background-color: #d5880c;
+  border: #000000;
   transition: all 1000ms ease;
 }
 
-.botones-acordion:active{
-  background-color: #d5880c;
-}
+
 
