@@ -54,23 +54,23 @@
     background-color: white;
     z-index: 3;
 
-    transition: all 0.2s ease;
+    transition: all 800ms ease;
   }
 .dropdown:hover .dropdown-content {
     display: block;
-    transition: all 0.2s ease;
+    transition: all 800ms ease;
   }
 .dropdown-content a {
     display: block;
     color: #000000;
     padding: 10px;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: all 800ms ease;
   }
 .dropdown-content a:hover {
     color: #ffffff;
     background-color: #ff6d00;
-    transition: all 0.2s ease;
+    transition: all 800ms ease;;
   }
 
 .boton{
@@ -187,7 +187,7 @@
   
   .overlay button {
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 10px;
     background-color: transparent;
     color: rgb(0, 0, 0);
@@ -324,24 +324,33 @@ a:link, a:visited, a:active {
 }
   /* Botones chica-chico */
   .botones-movil{
-  padding: 5px;
+  padding: 10px;
 }
   
 
 }
-
+@media screen and (max-width: 1024px){
+  .botones-movil{
+    padding: 2px;
+}
+}
 /* Botones chica-chico */
 .btn-grou{
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(5, 50px);
+  
 }
 
 .botones-mostrar{
   grid-column-start: 5;
   grid-column-end: 6 ;
   grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-end: 3;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+ 
 }
 
 .botones-mostrarc{
@@ -350,24 +359,29 @@ a:link, a:visited, a:active {
   grid-row-start: 3;
   grid-row-end: 3;
   grid-gap: 10px;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+  
 }
 
 .botones-acordion{
-  border: 1px solid #000000;
-  transform-style: preserve-3d;
+  display: block;;
   width: 100%;
   height: 100%;
   text-align: center;
   border-radius: 3px;
-  transition: all;
-  transition: all 1000ms ease;
-  
+  transition: all 800ms ease;
+  line-height: normal;
+  position: relative;
+  cursor: pointer;;
 }
 
-.botones-acordion:hover{
-  background-color: #d5880c;
+.botones-acordion:hover , .botones-mostrar:hover, .botones-mostrarc:hover {
+  background-color: #000000;
   border: #000000;
-  transition: all 1000ms ease;
+  transition: all 800ms ease;
+  color: rgb(255, 255, 255);
 }
 
 
